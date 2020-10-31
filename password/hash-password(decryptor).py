@@ -11,9 +11,9 @@ f2=open('key.txt','r')
 key=f2.read()
 f2.close()
 
-new_key = hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt, 100000)
+new_key = hashlib.pbkdf2_hmac('sha256', password.encode('utf-8'), salt.encode('utf-8'), 100000)
 
-if key == new_key:
+if key == str(new_key):
     print("пароль правельный")
 else:
     print("пароль неверен")
