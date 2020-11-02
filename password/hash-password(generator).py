@@ -20,8 +20,4 @@ file1=open('key.txt','w')
 file1.write(str(key))
 file1.close()
 
-
-print(key)
-print("\n\n",salt)
-
 input("\n\nВведите Enter. чтобы выйти.")
