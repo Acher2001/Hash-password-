@@ -1,3 +1,6 @@
+#Создоно 26.10.2020 
+#Черепанов Александр Михаилович
+#hash-password(generator)
 import hashlib
 import os
 
