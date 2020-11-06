@@ -1,2 +1,0 @@
-1)для начала создайте пароль в hash-password(generator).exe
-2)затем зайдите в hash-password(decryptor).exe и вводите его
